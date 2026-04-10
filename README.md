@@ -1,4 +1,19 @@
-# cryptography
+# Cryptography Project 🛡️
+
+This project is a collection of cryptographic algorithms implemented in Python.
+
+## 🚀 How to Setup and Run
+
+To run the algorithms, follow these steps:
+
+### 1. Prerequisites
+Ensure you have **Python 3.x** installed on your system.
+
+### 2. Install Dependencies
+The project uses the `pycryptodome` library for AES encryption. Install it by running:
+```bash
+pip install -r requirements.txt
+cryptography
 1. affine.py  
 This script implements the Affine cipher, a classical substitution cipher based on modular arithmetic. It demonstrates how each letter of the alphabet can be transformed using a linear function and then mapped back to plaintext through modular inversion. The code highlights both encryption and decryption processes, showing how mathematical operations can secure text while also being reversible when the correct keys are known.
 
